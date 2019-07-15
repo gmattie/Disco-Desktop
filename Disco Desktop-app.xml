@@ -1,0 +1,37 @@
+<?xml version ="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.5">
+	<id>DiscoDesktop</id>
+	<versionNumber>1.0</versionNumber>
+	<filename>Disco Desktop</filename>
+	<description>Disco Desktop demonstrates communication between AIR and Arduino via a built-in, automated serial proxy.  An Arduino sketch and schematic for Disco Desktop can be found in the Disco Docs folder.</description>
+	<!-- To localize the description, use the following format for the description element.
+	<description>
+		<text xml:lang="en">English App description goes here</text>
+		<text xml:lang="fr">French App description goes here</text>
+		<text xml:lang="ja">Japanese App description goes here</text>
+	</description>
+	-->
+	<name>Disco Desktop</name>
+	<!-- To localize the name, use the following format for the name element.
+	<name>
+		<text xml:lang="en">English App name goes here</text>
+		<text xml:lang="fr">French App name goes here</text>
+		<text xml:lang="ja">Japanese App name goes here</text>
+	</name>
+	-->
+	<copyright>Copyright © 2010 Geoffrey Mattie info@geoffreymattie.com</copyright>
+	<initialWindow>
+		<content>Disco%20Desktop.swf</content>
+		<systemChrome>none</systemChrome>
+		<transparent>true</transparent>
+		<visible>true</visible>
+		<fullScreen>false</fullScreen>
+		<autoOrients>false</autoOrients>
+		<aspectRatio>portrait</aspectRatio>
+		<renderMode>auto</renderMode>
+	<maximizable>false</maximizable><minimizable>true</minimizable><resizable>false</resizable></initialWindow>
+	<customUpdateUI>false</customUpdateUI>
+	<allowBrowserInvocation>false</allowBrowserInvocation>
+	<icon>
+	<image128x128>Disco%20Icon.png</image128x128></icon>
+<supportedProfiles>desktop extendedDesktop</supportedProfiles></application>
